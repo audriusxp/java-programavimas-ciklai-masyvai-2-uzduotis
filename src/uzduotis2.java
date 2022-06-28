@@ -17,17 +17,22 @@ public class uzduotis2 {
     }
 
     public static int arLyginis(int x, int y) {
-        if (x % 2 >=0) {
-            return x*y;
+        if (x % 2 ==0) {
+            return x * y;
+        }
 
-        else if (y > 100)
-            return x-y;
+        else if (y > 100) {
+            return y - x;
+        }
 
-        if (y<100){
-            return y-x;
+        if (y<100) {
+            return x - y;
+        }
 
-        else { y=100;
+        else {
+            y = 100;
             return 0;
+        }
 
 
     }
